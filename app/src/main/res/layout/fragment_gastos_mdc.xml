@@ -1,0 +1,58 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="10dp"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:layout_marginBottom="10dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.example.manuel.serviciostsj.activity.fragments.GastosMdcFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/Bienvenido"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:text="Bienvenido : "
+            android:textAlignment="center"
+            android:textColor="@color/colorAccent"
+            android:textSize="22dp" />
+
+        <TextView
+            android:id="@+id/txtGastosMedicos"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="8dp"
+            android:text="Total de Gastos Medicos"
+            android:textColor="@color/colorAccent"
+            android:textAlignment="center"
+            android:textSize="24dp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/ic_monetization_on_black_48dp"/>
+
+        <ListView
+            android:id="@+id/ListGastosMedicos"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:elevation="3dp"
+            android:background="@color/window_background"
+            android:dividerHeight="12sp"
+            android:divider="@color/background"/>
+
+    </LinearLayout>
+
+</FrameLayout>

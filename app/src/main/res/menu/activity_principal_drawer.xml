@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/datos_laborales"
+            android:icon="@drawable/ic_folder_shared_white_24dp"
+            android:title="Datos Laborales" />
+        <item
+            android:id="@+id/historia_curricular"
+            android:icon="@drawable/ic_assignment_white_24dp"
+            android:title="Historia Curricular" />
+        <item
+            android:id="@+id/beneficiarios"
+            android:icon="@drawable/ic_people_black_24dp"
+            android:title="Beneficiarios" />
+        <item
+            android:id="@+id/gastos_medicos"
+            android:icon="@drawable/ic_monetization_on_white_24dp"
+            android:title="Gastos Medicos" />
+        <item
+            android:id="@+id/proc_responsabilidad"
+            android:icon="@drawable/ic_playlist_add_check_white_24dp"
+            android:title="Proc. Responsabilidad"  />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Send" />
+        </menu>
+    </item>
+
+</menu>

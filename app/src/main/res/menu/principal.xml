@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/cerrar_sesion"
+        android:orderInCategory="100"
+        android:icon="@drawable/ic_exit_to_app_white_24dp"
+        android:title="@string/action_cerrar_sesion"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/action_DatosPersonales"
+        android:orderInCategory="100"
+        android:icon="@drawable/ic_settings_white_24dp"
+        android:title="@string/action_datos_per"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_info"
+        android:orderInCategory="100"
+        android:icon="@drawable/ic_settings_white_24dp"
+        android:title="@string/action_info"
+        app:showAsAction="never" />
+</menu>

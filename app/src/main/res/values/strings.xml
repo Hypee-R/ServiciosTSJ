@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">ServiciosTSJ</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_settings">Ajustes</string>
+    <string name="action_datos_per">Datos Personales</string>
+    <string name="action_info">Informacion</string>
+    <string name="action_cerrar_sesion">Cerrar Sesion</string>
+    <string name="prompt_usuario">Usuario</string>
+    <string name="prompt_password">Contraseña</string>
+    <string name="action_sign_in_short">Sing in</string>
+    <string name="error_invalid_email">El usuario ingresado es invalido</string>
+    <string name="error_invalid_password">La contraseña es demasiado corta</string>
+    <string name="error_incorrect_password">La contraseña es incorrecta</string>
+    <string name="error_field_required">Este campo es requerido</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email completions."</string>
+    <string name="Login">Ingresar</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="altashistcu">Nueva Historia Curricular</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="altasbeneficiarios">Nuevo Beneficiario</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="altasgastmedic">Nuevo Gasto Medico</string>
+
+</resources>
